@@ -16,11 +16,11 @@ void main() {
       }
       print('Valor digitado: $n \nSoma de divisiveis por 3 e 5: $soma');
     } else {
-      print('Digite apenas números');
+      print('Digite apenas números e que sejam inteiros');
     }
     print('Deseja reiniciar? (S/N)');
     String resp = stdin.readLineSync()!;
-    if(resp.toUpperCase() == 'N') {
+    if (resp.toUpperCase() == 'N') {
       again = false;
     }
   }
